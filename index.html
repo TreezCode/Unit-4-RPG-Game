@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Sytle Reset -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Personal Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Rick and Morty RPG</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="game-grid">
+            <div id="header-wrap">
+                <div id="header-title"></div>
+            </div>
+            <!-- This contains all characters in the beginning -->
+            <div id="all-characters-wrap">
+                <div id="all-character-title">Select Your Character</div>
+            </div>
+            <!-- This contains the character the user picks -->
+            <div id="user-selected-wrap">
+                <div id="user-selected-title">Your Character</div>
+                <div id="user-character"></div>
+            </div>
+            <!-- This contains all remaining characters available to challenge -->
+            <div id="all-enemies-wrap">
+                <div id="all-enemies-title">Enemies Available to Attack</div>
+                <div id="all-enemies"></div>
+            </div>
+            <!-- This contains the enemy the user picks -->
+            <div id="enemy-selected-wrap">
+                <div id="enemy-selected-title">Defender</div>
+                <div id="enemy-character"></div>
+            </div>
+            <div id="btn-wrap">
+                <button id="attack-btn">Attack</button>
+            </div>
+            <div id="message-wrap">
+                <div id="message"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script ype="text/havascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
